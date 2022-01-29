@@ -1,3 +1,12 @@
+# Пример подъема состояния
+Родительский компонент App.js - единый источник истины.
+Все состояния хранятся только в нём.
+
+Обработчики, меняющие состояния, спускаются пропсами из App.js в дочерние компоненты.
+Там они получают данные о событии (на каком элементе был клик в CitiesList.js, или что было введено в текстовом поле City.js).
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
